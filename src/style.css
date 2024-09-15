@@ -1,16 +1,15 @@
 body {
   font-family: "Roboto", sans-serif;
-  background: radial-gradient(
-    circle at 0% 0.5%,
-    rgb(241, 241, 242) 0.1%,
-    rgb(224, 226, 228) 100.2%
-  );
+  background-image: url("Images/Summer.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 a {
   color: #885df1;
 }
 .weather-app {
-  background: white;
+  background: rgba(255, 255, 255, 0.8);
   max-width: 600px;
   margin: 45px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
